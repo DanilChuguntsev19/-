@@ -1,0 +1,153 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/dunya/СлетатьРу/WeatherService.WebApi/WeatherService.WebApi.csproj": {}
+  },
+  "projects": {
+    "/home/dunya/СлетатьРу/WeatherService.Parser/WeatherService.Parser.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/dunya/СлетатьРу/WeatherService.Parser/WeatherService.Parser.csproj",
+        "projectName": "WeatherService.Parser",
+        "projectPath": "/home/dunya/СлетатьРу/WeatherService.Parser/WeatherService.Parser.csproj",
+        "packagesPath": "/home/dunya/.nuget/packages/",
+        "outputPath": "/home/dunya/СлетатьРу/WeatherService.Parser/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/dunya/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.Extensions.Hosting": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.Extensions.Hosting.Abstractions": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.Extensions.Logging.Abstractions": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.119/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/dunya/СлетатьРу/WeatherService.WebApi/WeatherService.WebApi.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/dunya/СлетатьРу/WeatherService.WebApi/WeatherService.WebApi.csproj",
+        "projectName": "WeatherService.WebApi",
+        "projectPath": "/home/dunya/СлетатьРу/WeatherService.WebApi/WeatherService.WebApi.csproj",
+        "packagesPath": "/home/dunya/.nuget/packages/",
+        "outputPath": "/home/dunya/СлетатьРу/WeatherService.WebApi/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/dunya/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/home/dunya/СлетатьРу/WeatherService.Parser/WeatherService.Parser.csproj": {
+                "projectPath": "/home/dunya/СлетатьРу/WeatherService.Parser/WeatherService.Parser.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "CsvHelper": {
+              "target": "Package",
+              "version": "[30.0.1, )"
+            },
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.119/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
